@@ -1,0 +1,25 @@
+.toDoContainer{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+input{
+    width: 100%;
+}
+.toDo-container{
+    text-align: left;
+}
+.item-container{
+    text-align: left;
+}
+.kg-row{
+    margin: 10px 5px;
+}
+.kg-button{
+    min-width: 80px;
+}
+.para{
+    text-align: center;
+    font-weight:  500;
+}

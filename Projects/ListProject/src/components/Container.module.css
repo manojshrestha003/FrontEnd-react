@@ -1,0 +1,11 @@
+.containerN{
+    border: 1px solid black;
+    margin: auto;
+    width:80%;
+    border-radius: 5px;
+    min-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    
+}
