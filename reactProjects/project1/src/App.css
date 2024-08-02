@@ -1,0 +1,61 @@
+/* General wrapper styling */
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the accordion container */
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Styling each accordion item */
+.item {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Remove the border on the last item */
+.item:last-child {
+  border-bottom: none;
+}
+
+/* Styling the title section of each item */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the title */
+.title:hover {
+  background-color: #e0e0e0;
+}
+
+/* Styling the plus/minus icon */
+.title span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styling the content section of each item */
+.content {
+  padding: 15px;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+/* Styling when no data is available */
+.no-data {
+  padding: 20px;
+  text-align: center;
+  color: #888;
+}
